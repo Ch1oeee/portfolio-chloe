@@ -1,0 +1,52 @@
+@import '../../index.scss';
+
+.main-page{
+    background-color: $color-beige;
+    display: flex;
+    flex-direction: column;
+    color: $color-dark-green;
+    align-items: center;
+    height: 100%;
+    padding: 40px ;
+    gap: 30px;
+
+    h1{
+        font-family: $title-font-family;
+        text-transform: uppercase;
+        font-size: 115px;
+        margin: 0;
+        text-align: center;
+    }
+
+    p{
+        font-family: $body-font-family;
+        margin: 0;
+    }
+
+    .greeting{
+        font-size: 40px;
+    }
+
+    .job{
+        font-size: 50px;
+        
+    }
+
+    .socials{
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+
+            svg{
+                height: 35px;
+                color: $color-dark-green;
+            }
+
+            svg:hover {
+                color: $color-green;
+            }
+        }
+    }
+}
