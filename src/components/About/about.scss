@@ -1,0 +1,43 @@
+@import '../../index.scss';
+
+.about {
+    background-color: $color-green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px ;
+    gap: 100px;
+
+    .content p {
+        color: $color-beige;
+        font-size: 36px;
+    }
+
+    .portrait {
+
+        position: relative;
+
+        img {
+            position: relative; 
+            z-index: 3; 
+        }
+        
+        .orange-circle{
+            border: 50px double $color-orange;
+            height: 400px;
+            width: 400px;
+            background-color: $color-beige;
+            border-radius: 50%;
+            position: absolute;
+            z-index: 1; 
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+    }
+   
+}
+

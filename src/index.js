@@ -6,6 +6,8 @@ import Header from './components/header/header';
 import Acceuil from './components/acceuil/acceuil';
 
 import reportWebVitals from './reportWebVitals';
+import About from './components/About/about';
+import Competences from './components/Competences/competences';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +16,8 @@ root.render(
     <Router>
       <Header />
       <Acceuil />
+      <About />
+      <Competences />
 
     </Router>
    

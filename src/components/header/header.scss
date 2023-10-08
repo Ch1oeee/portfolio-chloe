@@ -30,9 +30,8 @@
             font-size: 25px;
         }
 
-        li:hover {
-            color: $color-green;
-            text-decoration: double $color-green solid;
+        li a:hover {
+            color: $color-orange;
         }
     }
    

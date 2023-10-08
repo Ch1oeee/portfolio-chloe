@@ -15,4 +15,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h2{
+  font-size: 64px;
+  font-family: $title-font-family;
+  color: $color-dark-green;
+  margin: 0;
+}
 
+p{
+  font-family: $body-font-family;
+}
