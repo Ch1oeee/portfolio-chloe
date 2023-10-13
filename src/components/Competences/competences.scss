@@ -1,0 +1,64 @@
+@import '../../index.scss';
+.skills {
+    background-color: $color-beige;
+    padding: 50px;
+
+    .listes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-transform: uppercase;
+        align-items: flex-start;
+        padding: 40px 0;
+
+        .skills-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        p {
+            font-size: 48px;
+            color: $color-dark-green;
+            font-weight: bold;
+        }
+
+        .rating-list {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            gap: 20px;
+            
+            li {
+                display: flex;
+                justify-content: space-between; 
+                align-items: center; 
+                gap: 50px;
+                
+                .competence {
+                    font-size: 30px;
+                    color: $color-dark-green;
+                    font-family: $body-font-family;
+                    font-weight: bold;
+                }
+                
+                .rating {
+                    display: inline-flex; 
+                    gap: 15px; 
+                    font-size: 30px;
+        
+                    .filled {
+                        color: $color-orange;
+                    }
+        
+                    .empty {
+                        color: $color-green;
+                    }
+                }
+            }
+        }
+        
+        
+    }
+}
