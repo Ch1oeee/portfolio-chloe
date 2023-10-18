@@ -6,7 +6,9 @@ export default function About () {
         <div className='about'>
             <div className='content'>
                 <h2>À propos de moi</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                <p>Après une licence LEA anglais-chinois, j'ai décidé de me former chez OpenClassrooms au metier du web en suivant une formation de développeur web. Grace à cette formation j'ai pu acquérir de nombreuses compétences que j'ai pu mettre à profit à travers les divers projets que j'ai eu à réaliser au cours de celle-ci.
+                    Mon profil créatif et organisé me permet de m'intégrer harmonieusement dans des équipes diverses.
+                    Actuellement à la recherche d'un emploi en tant que développeur front-end.</p>
             </div>
            <div className='portrait'>
                 <div className='orange-circle'></div>

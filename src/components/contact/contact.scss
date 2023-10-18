@@ -1,0 +1,14 @@
+@import '../../index.scss';
+
+.form-contact {
+ background-color: $color-green;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 50px;
+
+    h2{
+        padding-bottom: 40px;
+    }
+}

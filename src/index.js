@@ -8,6 +8,7 @@ import Acceuil from './components/acceuil/acceuil';
 import reportWebVitals from './reportWebVitals';
 import About from './components/About/about';
 import Competences from './components/Competences/competences';
+import Contact from './components/contact/contact';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +19,7 @@ root.render(
       <Acceuil />
       <About />
       <Competences />
+      <Contact />
 
     </Router>
    
