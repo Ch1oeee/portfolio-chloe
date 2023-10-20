@@ -9,16 +9,20 @@ import reportWebVitals from './reportWebVitals';
 import About from './components/About/about';
 import Competences from './components/Competences/competences';
 import Contact from './components/contact/contact';
-
+import Modal from './components/modal/modal';
+import Projets from './components/projets/projets';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
+      
       <Header />
       <Acceuil />
       <About />
       <Competences />
+      <Projets />
+      <Modal />
       <Contact />
 
     </Router>
