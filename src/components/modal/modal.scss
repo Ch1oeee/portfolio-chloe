@@ -1,0 +1,119 @@
+@import '../../index.scss';
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+
+.modal-content {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $color-beige;
+    padding: 30px 50px;
+    border-radius: 25px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+
+body.modal-open {
+    overflow: hidden;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    overflow: auto;
+  }
+  
+  .modal.active {
+    display: block;
+}
+  
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    
+    h3{
+        padding-bottom: 50px;
+        text-transform: uppercase;
+    }
+
+    .infos{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        align-items: center;
+
+        .details{
+            width: 50%;
+
+            p{
+                padding-bottom: 40px;
+            }
+            
+            a {
+                text-decoration: none;
+                background-color: $color-green;
+                border: solid 1px;
+                color: $color-beige;
+                border-radius: 25px;
+                padding: 10px 20px;
+                cursor: pointer;
+            }
+
+            a:hover{
+                background-color: $color-orange;
+            }
+        }
+    }
+    .photo{
+        background-color: white;
+        height: 250px;
+        width: 450px;
+        border-radius: 25px;
+        border: solid $color-green 5px;
+    }
+
+    p{
+        color: $color-dark-green;
+        font-size: 18px;
+    }
+
+    button {
+        background-color: $color-green;
+        border-radius: 50%;
+        color: $color-beige;
+        width: 40px;
+        height: 40px;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: $color-orange;
+    }
+}

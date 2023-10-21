@@ -1,6 +1,6 @@
 @import '../../index.scss';
 .skills {
-    background-color: $color-beige;
+    background-color: $color-green;
     padding: 50px;
 
     .listes {
@@ -20,8 +20,9 @@
 
         p {
             font-size: 48px;
-            color: $color-dark-green;
+            color: $color-beige;
             font-weight: bold;
+            padding: 40px 0px;
         }
 
         .rating-list {
@@ -38,7 +39,7 @@
                 
                 .competence {
                     font-size: 30px;
-                    color: $color-dark-green;
+                    color: $color-beige;
                     font-family: $body-font-family;
                     font-weight: bold;
                 }
@@ -53,7 +54,7 @@
                     }
         
                     .empty {
-                        color: $color-green;
+                        color: $color-dark-green;
                     }
                 }
             }

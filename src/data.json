@@ -1,0 +1,37 @@
+[
+    {
+        "titre": "Booki, agence de voyage",
+        "imageSrc": "Booki.png",
+        "description": "Intégration de l'interface d'un site Internet visant à faciliter la recherche d'hébergements et d'activités dans différentes villes.",
+        "texte": "Pour ce premier projet de formation, le but était de créer une page web statique et responsive en partant d'une maquette Figma et des photos fournis. Ce projet permet de découvrir et appréhender les langages HTML et CSS, mais également de se familiariser avec des outils incontournables, tels que VSCode, Git et GitHub où encore Figma.",
+        "lienGitHub": "https://github.com/Ch1oeee/OC_Projet2"
+    },
+    {
+        "titre": "Sophie Bluel, Designer d'espace",
+        "imageSrc": "Portfolio.png",
+        "description": "Réalisation de la partie dynamique du portfolio d'une designer d'espace grace à Javascript.",
+        "texte": "Envoyée en renfort en tant que développeuse front-end au sein d'une équipe en charge de concevoir le site portfolio d'une architecte d'intérieur. Ma mission consiste à dynamiser le site en mettant l'accent sur le développement de la page de présentation des travaux de l'architecte. Pour cela, je récupère les données depuis l'API, crée la page de connexion du client de manière sécurisée, et mets en place une modale permettant d'uploader de nouveaux médias. Au cour de ce projet, j'ai pu acquérir plusieurs compétences en Javascript, notamment la récupération de données utilisateurs via des formulaires, la manipulation des éléments du DOM pour créer une expérience utilisateur fluide et interactive, la gestion des événements utilisateurs et la maîtrise de l'interaction avec une API dans les deux sens.",
+        "lienGitHub": "https://github.com/Ch1oeee/Projet_3"
+    },
+    {
+        "titre": "Nina Carducci, photographe",
+        "imageSrc": "Nina.png",
+        "description": "Analyser, débugger et optimiser le site d'une photographe",
+        "texte": "Ce projet s'organise autour de 2 axes, le débug et l'optimisation. En partant d'un audit préalable réalisé sur le site mis à disposition pour le projet, nous devions corriger un bug de navigation dans la modale, un bug de sélection de filtre et optimiser le site pour améliorer les notes de performances, accessibilité et référencement.",
+        "lienGitHub": "https://github.com/Ch1oeee/Nina-Carducci-P5"
+    },
+    {
+        "titre": "Kasa",
+        "imageSrc": "Kasa.png",
+        "description": "Création d'une application web de location immobilière avec React",
+        "texte": "En tant que développeuse front-end pour une nouvelle plateforme de location immobilière, j'ai été chargée d'initier le projet React et de développer l'ensemble de l'application, y compris la création des composants React et des routes avec React Router, en suivant les maquettes fournies pour garantir une mise en œuvre fidèle et efficace. Au cours de ce projet, j'ai appris à développer une interface web attrayante en utilisant Sass pour la gestion des styles, ce qui a permis d'apporter une esthétique moderne au site. De plus, j'ai mis en œuvre des animations CSS pour améliorer l'expérience utilisateur et rendre le site plus interactif. En développant des éléments de l'interface du site web grâce à des composants React, j'ai appris à structurer efficacement le code et à le rendre modulaire. Cette compétence s'est avérée essentielle pour maintenir le projet et ajouter de nouvelles fonctionnalités de manière efficace.",
+        "lienGitHub": "https://github.com/Ch1oeee/kasa-projet"
+    },
+    {
+        "titre": "Mon vieux grimoire",
+        "imageSrc": "Grimoire.png",
+        "description": "Développer le backend d'un site de notation de livres",
+        "texte": "En qualité de développeuse back-end au sein d'un projet de notation de livres, ma responsabilité principale consiste à établir l'API. À cet effet, j'ai conçu et implémenté un modèle logique de données en respectant les normes et réglementations en vigueur. J'ai assuré la gestion sécurisée du stockage des données, mettant en place des mécanismes de sécurité robustes pour garantir la confidentialité et l'intégrité des informations. De plus, j'ai mis en œuvre les opérations CRUD de manière sécurisée, en utilisant des pratiques de développement recommandées pour prévenir les vulnérabilités et les risques de sécurité. Cette expérience m'a permis d'acquérir des compétences essentielles en matière de développement back-end et de garantir la fiabilité et la sécurité de l'API pour le projet de notation de livres.",
+        "lienGitHub": "https://github.com/Ch1oeee/Projet-7-Grimoire"
+    }  
+]

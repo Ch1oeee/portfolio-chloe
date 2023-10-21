@@ -20,9 +20,9 @@ root.render(
       <Header />
       <Acceuil />
       <About />
-      <Competences />
       <Projets />
-      <Modal />
+      <Competences />
+      {/* <Modal /> */}
       <Contact />
 
     </Router>
