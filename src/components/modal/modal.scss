@@ -68,8 +68,17 @@ body.modal-open {
         gap: 30px;
         align-items: center;
 
+        img{
+            height: 300px;
+            width: 450px;
+        }
+
         .details{
             width: 50%;
+
+            ul{
+                // padding: 0;
+            }
 
             p{
                 padding-bottom: 40px;
@@ -89,13 +98,6 @@ body.modal-open {
                 background-color: $color-orange;
             }
         }
-    }
-    .photo{
-        background-color: white;
-        height: 250px;
-        width: 450px;
-        border-radius: 25px;
-        border: solid $color-green 5px;
     }
 
     p{

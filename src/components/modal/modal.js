@@ -15,8 +15,9 @@ export default function Modal({ selectedProjet, toggleModal }) {
           <>
             <h3>{selectedProjet.titre}</h3>
             <div className="infos">
-              <div className="photo"></div>
+              <img src={selectedProjet.imageModal} alt="Responsive du site web"></img>
               <div className="details"> 
+                <ul>{selectedProjet.technologies}</ul>
                 <p>{selectedProjet.texte}</p>
                 <a
                   href={selectedProjet.lienGitHub}
