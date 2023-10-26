@@ -3,6 +3,8 @@
 .projets {
     background-color: $color-beige;
     padding: 50px;
+    padding-bottom: 100px;
+    
 
     .intro p {
         font-size: 28px;
@@ -20,7 +22,7 @@
         position: relative;
 
         .background {
-            background-color: $color-green;
+            background-color: $color-light-green;
             width: 100%; 
             height: 330px; 
             position: absolute; 
