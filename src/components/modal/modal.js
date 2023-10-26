@@ -14,10 +14,16 @@ export default function Modal({ selectedProjet, toggleModal }) {
         {selectedProjet && (
           <>
             <h3>{selectedProjet.titre}</h3>
+            <div className="technologies">
+                  <ul>
+                      {selectedProjet.technologies.map((techno, index) => (
+                          <li key={index}>{techno}</li>
+                      ))}
+                  </ul>
+                </div>
             <div className="infos">
               <img src={selectedProjet.imageModal} alt="Responsive du site web"></img>
               <div className="details"> 
-                <ul>{selectedProjet.technologies}</ul>
                 <p>{selectedProjet.texte}</p>
                 <a
                   href={selectedProjet.lienGitHub}

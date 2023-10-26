@@ -28,6 +28,8 @@
     background-color: $color-beige;
     padding: 30px 50px;
     border-radius: 25px;
+    max-height: 580px;
+    overflow-y: auto; 
 }
 
 .close-modal {
@@ -58,9 +60,32 @@ body.modal-open {
     width: 900px;
     
     h3{
-        padding-bottom: 50px;
+        padding-bottom: 15px;
         text-transform: uppercase;
     }
+
+    .technologies {
+        ul {
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+          padding-bottom: 20px;
+          justify-content: center; 
+          text-align: center; 
+          align-items: center; 
+          flex-wrap: wrap;
+      
+          li {
+            background-color: $color-orange;
+            list-style: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            color: $color-beige;
+            text-transform: uppercase;
+          }
+        }
+    }
+      
 
     .infos{
         display: flex;
@@ -76,18 +101,13 @@ body.modal-open {
         .details{
             width: 50%;
 
-            ul{
-                // padding: 0;
-            }
-
             p{
-                padding-bottom: 40px;
+                padding-bottom: 30px;
             }
             
             a {
                 text-decoration: none;
                 background-color: $color-green;
-                border: solid 1px;
                 color: $color-beige;
                 border-radius: 25px;
                 padding: 10px 20px;
