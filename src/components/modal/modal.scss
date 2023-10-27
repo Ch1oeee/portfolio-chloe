@@ -183,3 +183,43 @@ body.modal-open {
         }
     }
 }
+/*** Small devices ***/
+@media (max-width: 768px){
+    .modal-content{
+        width: 260px;
+        top: 57%;
+        max-height: 470px;
+        padding: 30px 30px;
+
+        h3{
+            padding-top: 10px;
+        }
+
+        .technologies{
+            ul{
+                padding: 0;
+                li{
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .infos{
+            flex-direction: column;
+
+            .details{
+                width: 100%;
+                text-align: justify;
+
+                p{
+                    font-size: 15px;
+                    margin: 0 20px;
+                }
+
+                a {
+                    margin: 0 20px;
+                }
+            }
+        }
+    }
+}

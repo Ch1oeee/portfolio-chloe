@@ -29,6 +29,7 @@ export default function Projets() {
         </p>
       </div>
 
+      <div className="projet-body">
       {projetData.map((projet, index) => (
         <div className="projet" key={index}>
           <div className="background"></div>
@@ -47,6 +48,7 @@ export default function Projets() {
               </div>
         </div>
       ))}
+      </div>
 
       <Modal selectedProjet={selectedProjet} toggleModal={closeModal} />
     </div>

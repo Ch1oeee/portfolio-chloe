@@ -54,8 +54,23 @@
             }
         }
     }
-
-   
-
 }
 
+/*** Small devices ***/
+@media (max-width: 768px){
+    .Header{
+        flex-direction: column;
+        padding: 10px 20px 0 20px;
+
+        ul{
+            gap: 20px;
+            justify-content: center;
+            padding: 10px 0 10px 0;
+            margin: 0;
+
+            li{
+                font-size: 13px;
+            }
+        }
+    }
+}

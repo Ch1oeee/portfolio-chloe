@@ -53,6 +53,7 @@
             padding-top: 30px;
             color: $color-beige;
             font-size: 20px;
+            text-align: justify;
         }
 
         .portrait{
@@ -64,6 +65,31 @@
                 border: 30px double $color-orange;
                 height: 270px;
                 width: 270px;
+            }
+        }
+    }
+}
+
+/*** Small devices ***/
+@media (max-width: 768px){
+    .about{
+        padding: 30px 30px;
+        gap: 30px;
+
+        .content p {
+            padding-top: 25px;
+            font-size: 17px;
+        }
+
+        .portrait{
+            img {
+                height: 300px;
+            }
+
+            .orange-circle{
+                border: 30px double $color-orange;
+                height: 180px;
+                width: 180px;
             }
         }
     }

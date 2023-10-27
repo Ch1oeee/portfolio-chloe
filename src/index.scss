@@ -50,3 +50,16 @@ html,body{
     font-size: 25px;
   }
 }
+
+/*** Small devices ***/
+@media (max-width: 768px){
+  h2{
+    font-size: 27px;
+    text-align: center;
+  }
+
+  h3{
+    font-size: 20px;
+    text-align: center;
+  }
+}

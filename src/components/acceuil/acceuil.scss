@@ -70,12 +70,44 @@
         }
 
         .socials{
-            svg{
-                height: 20px;
+            ul{
+                svg{
+                    height: 30px;
+                }
             }
+           
         }
     }
+}
 
-   
+/*** Small devices ***/
+@media (max-width: 768px){
+    .main-page{
+        margin-top: 80px;
 
+        h1{
+            font-size: 50px;
+        }
+
+        .greeting{
+            font-size: 25px;
+        }
+
+        .job{
+            font-size: 25px;
+        }
+
+        .socials{
+            ul {
+                padding: 0;
+                gap: 30px;
+
+                svg{
+                    height: 20px;
+                    
+                }
+            }
+            
+        }
+    }
 }
