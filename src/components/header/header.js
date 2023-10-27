@@ -8,16 +8,15 @@ export default function Header(){
             <nav className='Navigation'>
               <ul>
                 <li>
-                  <Link to="/Competences">Compétences</Link>
+                  <Link to="/competences">Compétences</Link>
                 </li>
                 <li>
-                  <Link to="/A-propos">à propos</Link>
-                </li>
+                  <Link to="/about">À propos</Link>                </li>
                 <li>
                   <Link to="/Projets">Projets</Link>
                 </li>
                 <li>
-                  <Link to="/Contact">Contact</Link>
+                <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </nav>
