@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio-chloe/static/css/main.187430f7.css",
+    "main.js": "/portfolio-chloe/static/js/main.76254cc7.js",
+    "static/js/787.d21f1aef.chunk.js": "/portfolio-chloe/static/js/787.d21f1aef.chunk.js",
+    "static/media/Portrait.png": "/portfolio-chloe/static/media/Portrait.b4b65e6a45c896714d06.png",
+    "index.html": "/portfolio-chloe/index.html",
+    "main.187430f7.css.map": "/portfolio-chloe/static/css/main.187430f7.css.map",
+    "main.76254cc7.js.map": "/portfolio-chloe/static/js/main.76254cc7.js.map",
+    "787.d21f1aef.chunk.js.map": "/portfolio-chloe/static/js/787.d21f1aef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.187430f7.css",
+    "static/js/main.76254cc7.js"
+  ]
+}
