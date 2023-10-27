@@ -34,3 +34,19 @@ p{
   font-family: $body-font-family;
   margin: 0;
 }
+
+html,body{
+  overflow-x: hidden;
+}
+
+/*** Medium devices (tablets, less/equal than 1024px) ***/
+@media (max-width: 1200px) {
+
+  h2{
+    font-size: 40px;
+  }
+
+  h3{
+    font-size: 25px;
+  }
+}

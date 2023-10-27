@@ -90,3 +90,40 @@
         }
     }
 }
+
+/*** Medium devices (tablets, less/equal than 1024px) ***/
+@media (max-width: 1200px){
+    .projets{
+        padding: 30px 50px;
+
+        .intro p {
+            font-size: 20px;
+            padding-top: 30px;
+        }
+
+        .projet{
+            padding-top: 50px;
+            padding-bottom: 20px;
+
+            .background{
+                height: 245px;
+            }
+
+            .images{
+                .image-container{
+                    width: 300px;
+                    height: 200px;
+
+                    button{
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .infos p{
+                font-size: 18px;
+                padding-top: 15px;
+            }
+        }
+    }
+}

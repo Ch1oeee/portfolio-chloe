@@ -139,3 +139,47 @@ body.modal-open {
         background-color: $color-orange;
     }
 }
+
+/*** Medium devices (tablets, less/equal than 1024px) ***/
+@media (max-width: 1200px){
+    .modal-content{
+        width: 650px;
+        top: 30%;
+        max-height: 400px;
+
+        h3{
+            padding-bottom: 0px;
+        }
+
+        .technologies{
+            ul{
+                padding-bottom: 10px;
+                li{
+                    padding: 5px 10px;
+                }
+            }
+        }
+
+        .infos{
+            img{
+                width: 300px;
+                height: auto;
+            }
+
+            .details{
+                p{
+                    font-size: 15px;
+                }
+
+                a {
+                    padding: 5px 10px;
+                }
+            }
+        }
+
+        button {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

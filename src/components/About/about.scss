@@ -42,3 +42,29 @@
    
 }
 
+/*** Medium devices (tablets, less/equal than 1024px) ***/
+@media (max-width: 1200px) {
+    .about{
+        flex-direction: column;
+        padding: 30px 50px;
+        gap: 40px;
+
+        .content p {
+            padding-top: 30px;
+            color: $color-beige;
+            font-size: 20px;
+        }
+
+        .portrait{
+            img {
+                height: 400px;
+            }
+
+            .orange-circle{
+                border: 30px double $color-orange;
+                height: 270px;
+                width: 270px;
+            }
+        }
+    }
+}

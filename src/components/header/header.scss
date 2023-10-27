@@ -38,6 +38,24 @@
         li a:hover {
             color: $color-orange;
         }
-    }
-   
+    } 
 }
+
+/*** Medium devices (tablets, less/equal than 1024px) ***/
+@media (max-width: 1200px) {
+    .Header{
+        .logo{
+            font-size: 28px;
+        }
+
+        ul{
+            li{
+                font-size: 15px;
+            }
+        }
+    }
+
+   
+
+}
+

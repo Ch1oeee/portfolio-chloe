@@ -20,7 +20,7 @@ export default function Modal({ selectedProjet, toggleModal }) {
                           <li key={index}>{techno}</li>
                       ))}
                   </ul>
-                </div>
+            </div>
             <div className="infos">
               <img src={selectedProjet.imageModal} alt="Responsive du site web"></img>
               <div className="details"> 

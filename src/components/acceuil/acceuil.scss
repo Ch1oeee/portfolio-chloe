@@ -51,3 +51,31 @@
         }
     }
 }
+
+/*** Medium devices (tablets, less/equal than 1024px) ***/
+@media (max-width: 1200px) {
+    .main-page{
+        margin-top: 70px;
+
+        h1{
+            font-size: 80px;
+        }
+
+        .greeting{
+            font-size: 30px;
+        }
+
+        .job{
+            font-size: 40px;
+        }
+
+        .socials{
+            svg{
+                height: 20px;
+            }
+        }
+    }
+
+   
+
+}
