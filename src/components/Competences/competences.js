@@ -4,7 +4,7 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 export default function Competences () {
     return (
-        <div className='skills'>
+        <div className='skills' id="competences">
             <h2>Compétences</h2>
 
             <div className='listes'>

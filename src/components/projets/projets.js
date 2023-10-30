@@ -18,7 +18,7 @@ export default function Projets() {
   };
 
   return (
-    <div className="projets">
+    <div className="projets" id="projets">
       <div className="intro">
         <h2>Mes projets</h2>
         <p>

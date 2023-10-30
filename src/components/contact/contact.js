@@ -11,7 +11,7 @@ export default function Contact() {
     }, []);
 
   return (
-    <div className='form-contact'>
+    <div className='form-contact' id="contact">
 
         <h2>Contactez-moi</h2>
 

@@ -5,7 +5,7 @@ import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-ic
 
 export default function Acceuil () {
     return (
-        <div className='main-page'>
+        <div className='main-page' id="accueil">
             <p className='greeting'>Salut 👋🏼 je suis</p>
             <h1>chloé <br/> Montaigut</h1>
             <p className='job'>Développeuse Web</p>
