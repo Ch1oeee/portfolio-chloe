@@ -23,6 +23,7 @@
         "description": "Analyser, débugger et optimiser le site d'une photographe",
         "texte": "Ce projet s'organise autour de 2 axes, le débug et l'optimisation. En partant d'un audit préalable réalisé sur le site mis à disposition pour le projet, nous devions corriger un bug de navigation dans la modale, un bug de sélection de filtre et optimiser le site pour améliorer les notes de performances, accessibilité et référencement.",
         "lienGitHub": "https://github.com/Ch1oeee/Nina-Carducci-P5",
+        "lienSiteWeb":"https://ch1oeee.github.io/Nina-Carducci-P5/",
         "imageModal":"https://imageshack.com/i/poDcLsRbp",
         "technologies": ["SEO", "Wave","ChromeDev"]
     },
@@ -41,7 +42,7 @@
         "description": "Développer le backend d'un site de notation de livres",
         "texte": "En qualité de développeuse back-end au sein d'un projet de notation de livres, ma responsabilité principale consiste à établir l'API. À cet effet, j'ai conçu et implémenté un modèle logique de données en respectant les normes et réglementations en vigueur. J'ai assuré la gestion sécurisée du stockage des données, mettant en place des mécanismes de sécurité robustes pour garantir la confidentialité et l'intégrité des informations. De plus, j'ai mis en œuvre les opérations CRUD de manière sécurisée, en utilisant des pratiques de développement recommandées pour prévenir les vulnérabilités et les risques de sécurité. Cette expérience m'a permis d'acquérir des compétences essentielles en matière de développement back-end et de garantir la fiabilité et la sécurité de l'API pour le projet de notation de livres.",
         "lienGitHub": "https://github.com/Ch1oeee/Projet-7-Grimoire",
-        "imageModal":"",
+        "imageModal":"https://imageshack.com/i/pnXwFDWLp",
         "technologies": ["API","MongoDB","Node.js","Express.js"]
     }  
 ]
