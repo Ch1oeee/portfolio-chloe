@@ -32,6 +32,15 @@ export default function Modal({ selectedProjet, toggleModal }) {
                 >
                   GITHUB
                 </a>
+                {selectedProjet.lienSiteWeb && (
+                  <a
+                    href={selectedProjet.lienSiteWeb}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    SITE WEB
+                  </a>
+                )}
               </div>
             </div>
             <button className="close-modal" onClick={handleModalClose}>
